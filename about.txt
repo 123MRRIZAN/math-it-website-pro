@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About This Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-teal-300 via-blue-200 to-indigo-200 text-gray-900">
+
+  <!-- Navigation -->
+  <nav class="bg-teal-700 text-white p-4 shadow-lg flex justify-between">
+    <h1 class="font-bold text-xl">ℹ️ About This Website</h1>
+    <div class="space-x-4">
+      <a href="index.html" class="hover:text-yellow-300">Home</a>
+      <a href="calculator.html" class="hover:text-yellow-300">Calculator</a>
+      <a href="graph.html" class="hover:text-yellow-300">Graph Plotter</a>
+      <a href="about.html" class="hover:text-yellow-300">About</a>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section class="min-h-screen flex flex-col justify-center items-center p-10">
+    <div class="bg-white bg-opacity-90 p-10 rounded-2xl shadow-xl max-w-3xl">
+      <h2 class="text-4xl font-bold mb-6 text-center">Why This Website?</h2>
+      <p class="text-lg leading-relaxed mb-4">
+        Mathematics and Computer Science are deeply connected. This project was created to show
+        how abstract mathematical concepts can be turned into real, interactive tools using IT.
+      </p>
+      <ul class="list-disc list-inside text-lg mb-4">
+        <li>📐 <b>Calculator:</b> Applies trigonometry, logarithms, and algebra digitally.</li>
+        <li>📊 <b>Graph Plotter:</b> Converts equations into visual graphs, just like in data science.</li>
+        <li>💻 <b>Web Technology:</b> Uses HTML, CSS, JavaScript, Math.js, and Plotly.js to simulate real-world applications.</li>
+      </ul>
+      <p class="text-lg leading-relaxed">
+        This project bridges the gap between theory and practice, showing how the power of mathematics
+        is brought to life through computer technology.
+      </p>
+      <div class="mt-6 text-center">
+        <p class="italic text-gray-600">"Mathematics is the language of computers."</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
